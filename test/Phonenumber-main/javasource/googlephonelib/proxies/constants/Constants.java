@@ -2,16 +2,16 @@
 //
 // WARNING: Code you write here will be lost the next time you deploy the project.
 
-package phonenumbercommons.proxies.constants;
+package googlephonelib.proxies.constants;
 
 import com.mendix.core.Core;
 
 public class Constants
 {
-	// These are the constants for the PhoneNumberCommons module
+	// These are the constants for the GooglePhoneLib module
 
 	public static java.lang.String getPhonenumberLogNode()
 	{
-		return (java.lang.String)Core.getConfiguration().getConstantValue("PhoneNumberCommons.PhonenumberLogNode");
+		return (java.lang.String)Core.getConfiguration().getConstantValue("GooglePhoneLib.PhonenumberLogNode");
 	}
 }

@@ -7,7 +7,7 @@
 // Other code you write will be lost the next time you deploy the project.
 // Special characters, e.g., é, ö, à, etc. are supported in comments.
 
-package phonenumbercommons.actions;
+package googlephonelib.actions;
 
 import com.google.i18n.phonenumbers.PhoneNumberUtil;
 import com.mendix.systemwideinterfaces.core.IContext;

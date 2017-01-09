@@ -2,7 +2,7 @@
 //
 // WARNING: Code you write here will be lost the next time you deploy the project.
 
-package phonenumbercommons.proxies.microflows;
+package googlephonelib.proxies.microflows;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -14,66 +14,66 @@ import com.mendix.systemwideinterfaces.core.IMendixObject;
 
 public class Microflows
 {
-	// These are the microflows for the PhoneNumberCommons module
-	public static void aCT_IsNumberMatch(IContext context, phonenumbercommons.proxies.TestObject _testObject)
+	// These are the microflows for the GooglePhoneLib module
+	public static void aCT_IsNumberMatch(IContext context, googlephonelib.proxies.TestObject _testObject)
 	{
 		try
 		{
 			Map<java.lang.String, Object> params = new HashMap<java.lang.String, Object>();
 			params.put("TestObject", _testObject == null ? null : _testObject.getMendixObject());
-			Core.execute(context, "PhoneNumberCommons.ACT_IsNumberMatch", params);
+			Core.execute(context, "GooglePhoneLib.ACT_IsNumberMatch", params);
 		}
 		catch (CoreException e)
 		{
 			throw new MendixRuntimeException(e);
 		}
 	}
-	public static void aCT_ParseNumber(IContext context, phonenumbercommons.proxies.TestObject _testObject)
+	public static void aCT_ParseNumber(IContext context, googlephonelib.proxies.TestObject _testObject)
 	{
 		try
 		{
 			Map<java.lang.String, Object> params = new HashMap<java.lang.String, Object>();
 			params.put("TestObject", _testObject == null ? null : _testObject.getMendixObject());
-			Core.execute(context, "PhoneNumberCommons.ACT_ParseNumber", params);
+			Core.execute(context, "GooglePhoneLib.ACT_ParseNumber", params);
 		}
 		catch (CoreException e)
 		{
 			throw new MendixRuntimeException(e);
 		}
 	}
-	public static void aCT_PossibleNumber(IContext context, phonenumbercommons.proxies.TestObject _testObject)
+	public static void aCT_PossibleNumber(IContext context, googlephonelib.proxies.TestObject _testObject)
 	{
 		try
 		{
 			Map<java.lang.String, Object> params = new HashMap<java.lang.String, Object>();
 			params.put("TestObject", _testObject == null ? null : _testObject.getMendixObject());
-			Core.execute(context, "PhoneNumberCommons.ACT_PossibleNumber", params);
+			Core.execute(context, "GooglePhoneLib.ACT_PossibleNumber", params);
 		}
 		catch (CoreException e)
 		{
 			throw new MendixRuntimeException(e);
 		}
 	}
-	public static void aCT_ValidateNumber(IContext context, phonenumbercommons.proxies.TestObject _testObject)
+	public static void aCT_ValidateNumber(IContext context, googlephonelib.proxies.TestObject _testObject)
 	{
 		try
 		{
 			Map<java.lang.String, Object> params = new HashMap<java.lang.String, Object>();
 			params.put("TestObject", _testObject == null ? null : _testObject.getMendixObject());
-			Core.execute(context, "PhoneNumberCommons.ACT_ValidateNumber", params);
+			Core.execute(context, "GooglePhoneLib.ACT_ValidateNumber", params);
 		}
 		catch (CoreException e)
 		{
 			throw new MendixRuntimeException(e);
 		}
 	}
-	public static phonenumbercommons.proxies.TestObject dS_GetTestObject(IContext context)
+	public static googlephonelib.proxies.TestObject dS_GetTestObject(IContext context)
 	{
 		try
 		{
 			Map<java.lang.String, Object> params = new HashMap<java.lang.String, Object>();
-			IMendixObject result = (IMendixObject)Core.execute(context, "PhoneNumberCommons.DS_GetTestObject", params);
-			return result == null ? null : phonenumbercommons.proxies.TestObject.initialize(context, result);
+			IMendixObject result = (IMendixObject)Core.execute(context, "GooglePhoneLib.DS_GetTestObject", params);
+			return result == null ? null : googlephonelib.proxies.TestObject.initialize(context, result);
 		}
 		catch (CoreException e)
 		{

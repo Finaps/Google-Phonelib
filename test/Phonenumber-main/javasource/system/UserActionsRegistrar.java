@@ -38,10 +38,10 @@ public class UserActionsRegistrar implements EventHandler
 		{
 			component = mxRuntime.getMainComponent();
 			Core.initialize(component, integration);   
-			component.actionRegistry().registerUserAction(phonenumbercommons.actions.isNumberMatch.class);
-			component.actionRegistry().registerUserAction(phonenumbercommons.actions.ParsePhonenumber.class);
-			component.actionRegistry().registerUserAction(phonenumbercommons.actions.PhonenumberPossible.class);
-			component.actionRegistry().registerUserAction(phonenumbercommons.actions.PhonenumberValid.class);
+			component.actionRegistry().registerUserAction(googlephonelib.actions.isNumberMatch.class);
+			component.actionRegistry().registerUserAction(googlephonelib.actions.ParsePhonenumber.class);
+			component.actionRegistry().registerUserAction(googlephonelib.actions.PhonenumberPossible.class);
+			component.actionRegistry().registerUserAction(googlephonelib.actions.PhonenumberValid.class);
 			component.actionRegistry().registerUserAction(system.actions.VerifyPassword.class);
 		}
 	}

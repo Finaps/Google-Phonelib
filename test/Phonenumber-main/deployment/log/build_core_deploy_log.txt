@@ -1,0 +1,10 @@
+Buildfile: \\Mac\Home\Phone-number-beautifier\test\Phonenumber-main\deployment\build_core.xml
+
+deploy:
+    [unzip] Expanding: C:\Program Files\Mendix\6.10.2\modeler\deployment.mxz into \\Mac\Home\Phone-number-beautifier\test\Phonenumber-main\deployment
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+
+
+

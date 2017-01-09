@@ -7,7 +7,7 @@
 // Other code you write will be lost the next time you deploy the project.
 // Special characters, e.g., é, ö, à, etc. are supported in comments.
 
-package phonenumbercommons.actions;
+package googlephonelib.actions;
 
 import com.google.i18n.phonenumbers.NumberParseException;
 import com.google.i18n.phonenumbers.PhoneNumberUtil;
@@ -16,7 +16,7 @@ import com.mendix.core.Core;
 import com.mendix.logging.ILogNode;
 import com.mendix.systemwideinterfaces.core.IContext;
 import com.mendix.webui.CustomJavaAction;
-import phonenumbercommons.proxies.constants.Constants;
+import googlephonelib.proxies.constants.Constants;
 
 /**
  * Tests whether a phone number matches a valid pattern. Note this doesn't verify the number is actually in use, which is impossible to tell by just looking at a number itself.

@@ -2,7 +2,7 @@
 //
 // WARNING: Code you write here will be lost the next time you deploy the project.
 
-package phonenumbercommons.proxies;
+package googlephonelib.proxies;
 
 public class TestObject
 {
@@ -13,7 +13,7 @@ public class TestObject
 	/**
 	 * Internal name of this entity
 	 */
-	public static final java.lang.String entityName = "PhoneNumberCommons.TestObject";
+	public static final java.lang.String entityName = "GooglePhoneLib.TestObject";
 
 	/**
 	 * Enum describing members of this entity
@@ -39,15 +39,15 @@ public class TestObject
 
 	public TestObject(com.mendix.systemwideinterfaces.core.IContext context)
 	{
-		this(context, com.mendix.core.Core.instantiate(context, "PhoneNumberCommons.TestObject"));
+		this(context, com.mendix.core.Core.instantiate(context, "GooglePhoneLib.TestObject"));
 	}
 
 	protected TestObject(com.mendix.systemwideinterfaces.core.IContext context, com.mendix.systemwideinterfaces.core.IMendixObject testObjectMendixObject)
 	{
 		if (testObjectMendixObject == null)
 			throw new java.lang.IllegalArgumentException("The given object cannot be null.");
-		if (!com.mendix.core.Core.isSubClassOf("PhoneNumberCommons.TestObject", testObjectMendixObject.getType()))
-			throw new java.lang.IllegalArgumentException("The given object is not a PhoneNumberCommons.TestObject");
+		if (!com.mendix.core.Core.isSubClassOf("GooglePhoneLib.TestObject", testObjectMendixObject.getType()))
+			throw new java.lang.IllegalArgumentException("The given object is not a GooglePhoneLib.TestObject");
 
 		this.testObjectMendixObject = testObjectMendixObject;
 		this.context = context;
@@ -57,24 +57,24 @@ public class TestObject
 	 * @deprecated Use 'TestObject.load(IContext, IMendixIdentifier)' instead.
 	 */
 	@Deprecated
-	public static phonenumbercommons.proxies.TestObject initialize(com.mendix.systemwideinterfaces.core.IContext context, com.mendix.systemwideinterfaces.core.IMendixIdentifier mendixIdentifier) throws com.mendix.core.CoreException
+	public static googlephonelib.proxies.TestObject initialize(com.mendix.systemwideinterfaces.core.IContext context, com.mendix.systemwideinterfaces.core.IMendixIdentifier mendixIdentifier) throws com.mendix.core.CoreException
 	{
-		return phonenumbercommons.proxies.TestObject.load(context, mendixIdentifier);
+		return googlephonelib.proxies.TestObject.load(context, mendixIdentifier);
 	}
 
 	/**
 	 * Initialize a proxy using context (recommended). This context will be used for security checking when the get- and set-methods without context parameters are called.
 	 * The get- and set-methods with context parameter should be used when for instance sudo access is necessary (IContext.getSudoContext() can be used to obtain sudo access).
 	 */
-	public static phonenumbercommons.proxies.TestObject initialize(com.mendix.systemwideinterfaces.core.IContext context, com.mendix.systemwideinterfaces.core.IMendixObject mendixObject)
+	public static googlephonelib.proxies.TestObject initialize(com.mendix.systemwideinterfaces.core.IContext context, com.mendix.systemwideinterfaces.core.IMendixObject mendixObject)
 	{
-		return new phonenumbercommons.proxies.TestObject(context, mendixObject);
+		return new googlephonelib.proxies.TestObject(context, mendixObject);
 	}
 
-	public static phonenumbercommons.proxies.TestObject load(com.mendix.systemwideinterfaces.core.IContext context, com.mendix.systemwideinterfaces.core.IMendixIdentifier mendixIdentifier) throws com.mendix.core.CoreException
+	public static googlephonelib.proxies.TestObject load(com.mendix.systemwideinterfaces.core.IContext context, com.mendix.systemwideinterfaces.core.IMendixIdentifier mendixIdentifier) throws com.mendix.core.CoreException
 	{
 		com.mendix.systemwideinterfaces.core.IMendixObject mendixObject = com.mendix.core.Core.retrieveId(context, mendixIdentifier);
-		return phonenumbercommons.proxies.TestObject.initialize(context, mendixObject);
+		return googlephonelib.proxies.TestObject.initialize(context, mendixObject);
 	}
 
 	/**
@@ -204,7 +204,7 @@ public class TestObject
 
 		if (obj != null && getClass().equals(obj.getClass()))
 		{
-			final phonenumbercommons.proxies.TestObject that = (phonenumbercommons.proxies.TestObject) obj;
+			final googlephonelib.proxies.TestObject that = (googlephonelib.proxies.TestObject) obj;
 			return getMendixObject().equals(that.getMendixObject());
 		}
 		return false;
@@ -221,7 +221,7 @@ public class TestObject
 	 */
 	public static java.lang.String getType()
 	{
-		return "PhoneNumberCommons.TestObject";
+		return "GooglePhoneLib.TestObject";
 	}
 
 	/**
