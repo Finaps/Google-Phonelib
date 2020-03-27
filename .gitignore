@@ -5,6 +5,10 @@ test/javasource/googlemaps/proxies
 test/deployment/
 test/.classpath
 test/.project
+test/Phonenumber-main/deployment/
+test/Phonenumber-main/theme/
+test/Phonenumber-main/theme_old/
+test/Phonenumber-main/widgets/
 *.launch
 *.tmp
 *.lock
