@@ -1,10 +1,10 @@
-Buildfile: \\Mac\Home\Phone-number-beautifier\test\Phonenumber-main\deployment\build_core.xml
+Buildfile: M:\Google-Phonelib\test\Phonenumber-main\deployment\build_core.xml
 
 deploy:
-    [unzip] Expanding: C:\Program Files\Mendix\6.10.2\modeler\deployment.mxz into \\Mac\Home\Phone-number-beautifier\test\Phonenumber-main\deployment
+     [copy] Copying 25 files to M:\Google-Phonelib\test\Phonenumber-main\deployment
+     [copy] Copying 1 file to M:\Google-Phonelib\test\Phonenumber-main\deployment\model\lib\userlib
 
 BUILD SUCCESSFUL
 Total time: 0 seconds
-
 
 

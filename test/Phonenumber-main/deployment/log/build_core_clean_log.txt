@@ -1,11 +1,9 @@
-Buildfile: \\Mac\Home\Phone-number-beautifier\test\Phonenumber-main\deployment\build_core.xml
+Buildfile: M:\Google-Phonelib\test\Phonenumber-main\deployment\build_core.xml
 
 clean:
-   [delete] Deleting directory \\Mac\Home\Phone-number-beautifier\test\Phonenumber-main\deployment\model
-   [delete] Deleting directory \\Mac\Home\Phone-number-beautifier\test\Phonenumber-main\deployment\run
+   [delete] Deleting directory M:\Google-Phonelib\test\Phonenumber-main\deployment\model
 
 BUILD SUCCESSFUL
-Total time: 1 second
-
+Total time: 0 seconds
 
 
